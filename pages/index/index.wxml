@@ -1,0 +1,18 @@
+<!--pages/home/home/index.wxml-->
+
+<scroll-view class="container" scroll-y="true">
+  <view wx:if="{{!appData.isRelease&&user.extend.topMessage}}" class="top_info">
+    <view style="white-space: pre-wrap;">{{user.extend.topMessage}}</view>
+  </view>
+  <view class="items-list-wrap">
+    <block wx:for="{{classlist}}" wx:for-item="item" wx:key="index">
+      <view class="item-list-wrap" data-id="{{item}}" bind:tap="selectTop">
+        <image class="imgs data-v-8d1cd75a" lazyLoad="{{true}}" src="{{item.icon}}"></image>
+        <text class="item_name">{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+</scroll-view>
+<view class="banner">
+  <image src="https://xiaojinhe-cdn.iyoudui.cn/upload/common/20231212/bann.jpg" mode="widthFix"/>
+</view>
