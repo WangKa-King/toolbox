@@ -30,4 +30,6 @@
 - 血型计算
 
 ## 🛠️ 图片展示
-[![License](/gh_859a0ce1f1c5_258.jpg)](#license)
+[![License](/85450d96b62fe71a268567ea12e4318.jpg)](#license)
+[![License](/cab61cecd338234cd80bb5534978df4.jpg)](#license)
+[![License](/f92722588f6eba9b9d2fe91510010ef.jpg)](#license)
