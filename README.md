@@ -1,4 +1,4 @@
-# 工具魔方
+# 工具宝贝
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
 ## 🛠️ 微信扫描二维码在线体验
